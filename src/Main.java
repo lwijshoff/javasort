@@ -21,18 +21,9 @@ public class Main {
 
         // Generate a large test array
         int[] original = generateLargeArray(100000, 1000000);
+        int[] sorted = Sort.mergeSort(original);
 
-        int[] insertsorted = Sort.straightInsertion(original);
-        int[] bubblesorted = Sort.bubbleSort(original);
-        int[] mergesorted = Sort.mergeSort(original);
-        int[] quicksorted = Sort.quickSort(original);
-
-        System.out.println(" ");
         System.out.println("Original: " + Arrays.toString(original));
-        System.out.println(" ");
-        // System.out.println("InsertSorted:   " + Arrays.toString(insertsorted));
-        // System.out.println("BubbleSorted: " + Arrays.toString(bubblesorted));
-        // System.out.println("MergeSorted: " + Arrays.toString(mergesorted));
-        // System.out.println("QuickSorted: " + Arrays.toString(quicksorted));
+        System.out.println("Sorted:   " + Arrays.toString(sorted));
     }
 }
