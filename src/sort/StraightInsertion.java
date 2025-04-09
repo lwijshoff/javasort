@@ -3,7 +3,7 @@ package sort;
 public class StraightInsertion {
     public static int[] sort(int[] input) {
         int[] arr = input.clone();  // Keep original array unchanged
-        int comparisons = 0;
+        long comparisons = 0;
 
         for (int j = 1; j < arr.length; j++) {
             int t = arr[j];

@@ -1,7 +1,7 @@
 package sort;
 
 public class MergeSort {
-    private static int comparisons = 0;
+    private static long comparisons = 0;
 
     public static int[] sort(int[] input) {
         comparisons = 0;

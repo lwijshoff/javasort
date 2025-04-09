@@ -3,7 +3,7 @@ package sort;
 public class BubbleSort {
     public static int[] sort(int[] input) {
         int[] arr = input.clone();  // Keep original array unchanged
-        int comparisons = 0;
+        long comparisons = 0;
         boolean swapped;
 
         for (int i = 0; i < arr.length - 1; i++) {
