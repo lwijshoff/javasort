@@ -83,3 +83,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributing
 
 Feel free to fork the repository and submit pull requests. Contributions are welcome to add new sorting algorithms, optimize existing ones, or improve documentation.
+
+---
+
+## Author
+
+This project was created by Leonard Wijshoff and Pavlo Lange
